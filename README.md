@@ -1,7 +1,7 @@
 # adbkit-logcat
 
 **adbkit-logcat** provides a [Node.js][nodejs] interface for working with output produced by the Android [`logcat` tool][logcat-site]. It takes a log stream (that you must create separately), parses it, and emits log entries in real-time as they occur. Possible use cases include storing logs in a database, forwarding logs via [MessagePack][msgpack], or just advanced filtering.
-
+ 
 ## Requirements
 
 * [Node.js](http://nodejs.org/) 4.x or newer. Older versions are not supported.
